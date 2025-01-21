@@ -1,0 +1,43 @@
+.home{
+  margin-top: 5rem;
+  .container{
+  background-image: url("https://preview.colorlib.com/theme/winter/img/banner_img.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+
+  .words{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    flex-direction: column;
+   
+    // margin: auto;
+    .word{
+      margin-top: 18rem;
+      p{
+        font-size: 3rem;
+      }
+      h2{
+        font-size: 5rem;
+        width: 50%;
+      }
+      
+        button{
+          background-color: #2F7DFC;
+          border: none;
+          padding: 15px 20px;
+          color: white;
+          font-size: 15px;
+          cursor: pointer;
+          transition: 0.3s;
+          &:hover{
+            background-color: white;
+            color: #2F7DFC;
+            font-weight: 700;
+          }
+        }
+      
+    }
+  }
+  }
+}

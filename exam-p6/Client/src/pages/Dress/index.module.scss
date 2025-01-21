@@ -1,0 +1,36 @@
+.container{
+  width: 80%;
+  margin: auto;
+  .cont{
+    margin-top: 8rem;
+    .card{
+      transition: 0.4s;
+      cursor: pointer;
+      &:hover{
+        scale: 1.1;
+      }
+    }
+  }
+  h2{
+    color: #206178;
+  }
+  input{
+    border: none;
+   display: flex;
+   margin: auto;
+   padding: 5px;
+   width: 70%;
+   border-bottom: 1px solid gray;
+   margin-bottom: 2rem;
+   font-size: 1rem;
+  }
+  .image{
+    height: 300px;
+    overflow: hidden;
+  }
+  img{
+    width: 80%;
+   
+  }
+
+}
